@@ -1,0 +1,79 @@
+// This program calculates the Lowest Common multiple
+// for excessively long input values
+ 
+import java.util.*;
+ 
+public class LowestCommonMultiple {
+ 
+    private static long
+    lcmNaive(long numberOne, long numberTwo)
+    {
+ 
+        long lowestCommonMultiple;
+ 
+        lowestCommonMultiple
+            = (numberOne * numberTwo)
+              / greatestCommonDivisor(numberOne,
+                                      numberTwo);
+ 
+        return lowestCommonMultiple;
+    }
+ 
+    private static long
+    greatestCommonDivisor(long numberOne, long numberTwo)
+    {
+ 
+        if (numberTwo == 0)
+            return numberOne;
+ 
+        return greatestCommonDivisor(numberTwo,
+                                     numberOne % numberTwo);
+    }
+    public static void main(String args[])
+    {
+ 
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the inputs");
+        long numberOne = scanner.nextInt();
+        long numberTwo = scanner.nextInt();
+ 
+        System.out.println(lcmNaive(numberOne, numberTwo));
+    }
+}
+
+
+Pseudo code for the preceding code: 
+
+This program calculates the Lowest Common multiple
+for excessively long input values
+ 
+function lcmNaive(Argument one, Argument two){
+ 
+    Calculate the lowest common variable of Argument
+    1 and Argument 2 by dividing their product by their
+    Greatest common divisor product
+ 
+    return lowest common multiple
+end
+}
+function greatestCommonDivisor(Argument one, Argument two){
+    if Argument two is equal to zero
+        then return Argument one
+ 
+    return the greatest common divisor
+ 
+end
+}
+ 
+{
+In the main function
+    
+   print prompt "Input two numbers"
+        
+   Take the first number from the user
+   Take the second number from the user
+ 
+   Send the first number and second number
+   to the lcmNaive function and print
+   the result to the user  
+}

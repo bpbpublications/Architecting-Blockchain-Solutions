@@ -1,0 +1,1 @@
+Finally, below you will find a complete test suite to check if your ERC 20 smart contract is functioning as it should. 

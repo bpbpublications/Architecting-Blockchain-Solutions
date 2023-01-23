@@ -1,0 +1,1 @@
+In the following, we can see an example implementation of the ERC20 token standard’s specified transfer function. This function is required by the smart contract, and it is responsible for governing how a user can send a certain ERC 20 token from their own private wallet to another wallet address.

@@ -1,0 +1,15 @@
+{
+	"attributes": [
+		{
+			"trait_type": "Shape",
+			"value": "Square"
+		},
+		{
+			"trait_type": "Mood",
+			"value": "Happy"
+		}
+	],
+	"description": "A happy square.",
+	"image": "https://linkgoeshere.com/hello.jpeg",
+	"name": "Happy Square"
+}

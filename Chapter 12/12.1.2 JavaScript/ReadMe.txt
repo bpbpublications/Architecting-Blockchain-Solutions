@@ -1,0 +1,2 @@
+JavaScript program to determine the sum of two numbers entered by the user: A user is first asked for two numbers, and then the following code is used to calculate the sum of the two numbers.
+Here is the JavaScript program for determining the sum of two numbers entered by the user. You can try to run this on an online javascript editor like https://playcode.io/javascript/
